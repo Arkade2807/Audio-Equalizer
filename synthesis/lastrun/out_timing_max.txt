@@ -1,0 +1,104 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Equalizer
+Version: T-2022.03-SP3
+Date   : Wed Apr 26 21:50:49 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: iEQ/iFIR_LP/lft_val_reg[16]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iEQ/ff_scaled_LPL_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Equalizer          16000                 saed32lvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  iEQ/iFIR_LP/lft_val_reg[16]/CLK (DFFARX1_LVT)           0.00 #     0.00 r
+  iEQ/iFIR_LP/lft_val_reg[16]/QN (DFFARX1_LVT)            0.07       0.07 r
+  U16367/Y (INVX1_LVT)                                    0.04       0.11 f
+  U9194/Y (AND2X1_LVT)                                    0.06       0.16 f
+  U16368/Y (XOR2X1_LVT)                                   0.09       0.25 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_2_9/CO (FADDX1_LVT)
+                                                          0.08       0.33 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_3_9/S (FADDX1_LVT)
+                                                          0.12       0.45 f
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_4_8/S (FADDX1_LVT)
+                                                          0.11       0.56 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_5_7/CO (FADDX1_LVT)
+                                                          0.08       0.65 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_6_7/S (FADDX1_LVT)
+                                                          0.12       0.77 f
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_7_6/S (FADDX1_LVT)
+                                                          0.11       0.88 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_8_5/CO (FADDX1_LVT)
+                                                          0.08       0.96 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_9_5/S (FADDX1_LVT)
+                                                          0.12       1.08 f
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_10_4/S (FADDX1_LVT)
+                                                          0.11       1.20 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_11_3/CO (FADDX1_LVT)
+                                                          0.08       1.28 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_12_3/S (FADDX1_LVT)
+                                                          0.12       1.40 f
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_13_2/S (FADDX1_LVT)
+                                                          0.11       1.52 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S2_14_1/CO (FADDX1_LVT)
+                                                          0.08       1.60 r
+  dp_cluster_17/iEQ/iSCALE_LPL/mult_23/S4_1/S (FADDX1_LVT)
+                                                          0.12       1.72 f
+  U16375/Y (XNOR2X1_LVT)                                  0.09       1.81 r
+  U16374/Y (INVX0_LVT)                                    0.02       1.84 f
+  U16372/Y (AND2X1_LVT)                                   0.04       1.88 f
+  U16109/Y (NAND2X0_LVT)                                  0.03       1.91 r
+  U16108/Y (AND2X1_LVT)                                   0.05       1.96 r
+  U9314/Y (OA21X1_LVT)                                    0.05       2.01 r
+  U9310/Y (OA21X1_LVT)                                    0.05       2.06 r
+  U9306/Y (OA21X1_LVT)                                    0.05       2.11 r
+  U9302/Y (OA21X1_LVT)                                    0.05       2.16 r
+  U9298/Y (OA21X1_LVT)                                    0.05       2.21 r
+  U9294/Y (OA21X1_LVT)                                    0.06       2.27 r
+  U18646/Y (OR2X2_LVT)                                    0.05       2.32 r
+  U18645/Y (NAND2X0_LVT)                                  0.04       2.35 f
+  U18647/Y (AOI21X1_LVT)                                  0.06       2.42 r
+  U16382/Y (NAND2X0_LVT)                                  0.03       2.44 f
+  U16384/Y (NAND2X0_LVT)                                  0.04       2.48 r
+  U16392/Y (AND2X1_LVT)                                   0.04       2.52 r
+  U16389/Y (AO22X1_LVT)                                   0.05       2.57 r
+  U16394/Y (XNOR2X2_LVT)                                  0.09       2.67 r
+  U16407/Y (MUX21X1_LVT)                                  0.08       2.75 f
+  U16397/Y (OR2X1_LVT)                                    0.04       2.79 f
+  U16409/Y (OR2X2_LVT)                                    0.05       2.84 f
+  U16413/Y (INVX1_LVT)                                    0.05       2.88 r
+  U15305/Y (AO221X1_LVT)                                  0.07       2.96 r
+  iEQ/ff_scaled_LPL_reg[0]/D (DFFARX1_LVT)                0.01       2.97 r
+  data arrival time                                                  2.97
+
+  clock clk (rise edge)                                   3.00       3.00
+  clock network delay (ideal)                             0.00       3.00
+  iEQ/ff_scaled_LPL_reg[0]/CLK (DFFARX1_LVT)              0.00       3.00 r
+  library setup time                                     -0.03       2.97
+  data required time                                                 2.97
+  --------------------------------------------------------------------------
+  data required time                                                 2.97
+  data arrival time                                                 -2.97
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

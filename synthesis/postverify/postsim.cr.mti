@@ -1,0 +1,332 @@
+/filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/high_freq_queue.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/high_freq_queue.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module high_freq_queue
+
+Top level modules:
+	high_freq_queue
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_HP.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_HP.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ROM_HP
+
+Top level modules:
+	ROM_HP
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/PB_release.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/PB_release.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module PB_release
+
+Top level modules:
+	PB_release
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/Equalizer_tb_vg.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/Equalizer_tb_vg.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module Equalizer_tb
+
+Top level modules:
+	Equalizer_tb
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/low_freq_queue.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/low_freq_queue.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module low_freq_queue
+
+Top level modules:
+	low_freq_queue
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/UART.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/UART.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/tone_ROM_rght.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/tone_ROM_rght.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module tone_ROM_rght
+
+Top level modules:
+	tone_ROM_rght
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/resp_ROM.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/resp_ROM.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module resp_ROM
+
+Top level modules:
+	resp_ROM
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_B2.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_B2.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module FIR_B2
+
+Top level modules:
+	FIR_B2
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/tone_ROM_lft.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/tone_ROM_lft.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module tone_ROM_lft
+
+Top level modules:
+	tone_ROM_lft
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/synch_detect.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/synch_detect.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module synch_detect_pos
+-- Compiling module synch_detect_neg
+
+Top level modules:
+	synch_detect_pos
+	synch_detect_neg
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/ROM.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/ROM.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_LP.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_LP.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ROM_LP
+
+Top level modules:
+	ROM_LP
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/RN52.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/RN52.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module RN52
+
+Top level modules:
+	RN52
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/reset_synch.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/reset_synch.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module rst_synch
+
+Top level modules:
+	rst_synch
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/cmdROM.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/cmdROM.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module cmdROM
+
+Top level modules:
+	cmdROM
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/synthesis/Equalizer.vg {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/synthesis/Equalizer.vg
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module Equalizer
+
+Top level modules:
+	Equalizer
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/snd_cmd.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/snd_cmd.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module snd_cmd
+
+Top level modules:
+	snd_cmd
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_HP.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_HP.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module FIR_HP
+
+Top level modules:
+	FIR_HP
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/SPI_ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/SPI_ADC128S.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module SPI_ADC128S
+
+Top level modules:
+	SPI_ADC128S
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/slide_intf.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/slide_intf.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module slide_intf
+
+Top level modules:
+	slide_intf
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/PDM.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/PDM.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module PDM
+
+Top level modules:
+	PDM
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/RN52_t.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/RN52_t.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module RN52_t
+
+Top level modules:
+	RN52_t
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/BT_intf_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/BT_intf_tb.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module BT_intf_tb
+
+Top level modules:
+	BT_intf_tb
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/spkr_drv.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/spkr_drv.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module spkr_drv
+
+Top level modules:
+	spkr_drv
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/SPI_mnrch.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/SPI_mnrch.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module SPI_mnrch
+
+Top level modules:
+	SPI_mnrch
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/EQ_engine.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/EQ_engine.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module EQ_engine
+
+Top level modules:
+	EQ_engine
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_B1.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_B1.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module FIR_B1
+
+Top level modules:
+	FIR_B1
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_LP.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_LP.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module FIR_LP
+
+Top level modules:
+	FIR_LP
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/band_scale.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/band_scale.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module band_scale
+
+Top level modules:
+	band_scale
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/I2S_Mnrch.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/I2S_Mnrch.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module I2S_Mnrch
+
+Top level modules:
+	I2S_Mnrch
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_B1.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_B1.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ROM_B1
+
+Top level modules:
+	ROM_B1
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/I2S_Serf.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/I2S_Serf.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module I2S_Serf
+
+Top level modules:
+	I2S_Serf
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/band_scale_piped.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/band_scale_piped.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module band_scale_piped
+
+Top level modules:
+	band_scale_piped
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_B3.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/FIR_B3.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module FIR_B3
+
+Top level modules:
+	FIR_B3
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/slide_intf_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/slide_intf_tb.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module slide_intf_tb
+
+Top level modules:
+	slide_intf_tb
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/ADC128S.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ADC128S
+
+Top level modules:
+	ADC128S
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_B2.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_B2.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ROM_B2
+
+Top level modules:
+	ROM_B2
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/BT_intf.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/BT_intf.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module bt_intf
+
+Top level modules:
+	bt_intf
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/dualPort1024x16.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/dualPort1024x16.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dualPort1024x16
+
+Top level modules:
+	dualPort1024x16
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/dualPort1536x16.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/dualPort1536x16.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dualPort1536x16
+
+Top level modules:
+	dualPort1536x16
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/A2D_with_Pots.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/A2D_with_Pots.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module A2D_with_Pots
+
+Top level modules:
+	A2D_with_Pots
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_B3.v {1 {vlog -work work -vopt -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/ROM_B3.v
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module ROM_B3
+
+Top level modules:
+	ROM_B3
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/A2D_intf.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/A2D_intf.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module A2D_intf
+
+Top level modules:
+	A2D_intf
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/slide_intf_test.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/slide_intf_test.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module slide_intf_test
+
+Top level modules:
+	slide_intf_test
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/EQ_engine_tb.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/testbench/EQ_engine_tb.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module EQ_engine_tb
+
+Top level modules:
+	EQ_engine_tb
+
+} {} {}} /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/dff.sv {1 {vlog -work work -vopt -sv -stats=none /filespace/y/yxia/Documents/ECE551/TheQuackAttack/src/dff.sv
+QuestaSim vlog 2021.2_2 Compiler 2021.06 Jun 19 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}}

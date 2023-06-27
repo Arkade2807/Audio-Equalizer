@@ -1,0 +1,35 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP3
+Date:        Mon May  1 10:32:51 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Unconnected ports (LINT-28)                                    10
+
+Designs                                                             8
+    Black box (LINT-55)                                             8
+--------------------------------------------------------------------------------
+
+Warning: In design 'Equalizer', port 'LED[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'LED[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'sht_dwn' is not connected to any nets. (LINT-28)
+Warning: In design 'Equalizer', port 'Flt_n' is not connected to any nets. (LINT-28)
+Information: Design 'ROM_HP' does not contain any cells or nets. (LINT-55)
+Information: Design 'ROM_B3' does not contain any cells or nets. (LINT-55)
+Information: Design 'ROM_B2' does not contain any cells or nets. (LINT-55)
+Information: Design 'ROM_B1' does not contain any cells or nets. (LINT-55)
+Information: Design 'ROM_LP' does not contain any cells or nets. (LINT-55)
+Information: Design 'dualPort1024x16' does not contain any cells or nets. (LINT-55)
+Information: Design 'dualPort1536x16' does not contain any cells or nets. (LINT-55)
+Information: Design 'cmdROM' does not contain any cells or nets. (LINT-55)
+1

@@ -1,0 +1,59 @@
+#Read all files for synthesis
+read_file -format sverilog {../src/EQ_engine_gated.sv, ../src/band_scale_piped.sv, ../src/A2D_intf.sv, ../src/band_scale.sv, ../src/BT_intf.sv, ../src/dff.sv, ../src/EQ_engine.sv, ../src/Equalizer.sv, ../src/FIR_B1.sv, ../src/FIR_B2.sv, ../src/FIR_B3.sv, ../src/FIR_HP.sv, ../src/FIR_LP.sv, ../src/high_freq_queue.sv, ../src/I2S_Serf.sv, ../src/low_freq_queue.sv, ../src/PB_release.sv, ../src/PDM.sv, ../src/slide_intf.sv, ../src/snd_cmd.sv, ../src/SPI_mnrch.sv, ../src/spkr_drv.sv, ../src/synch_detect.sv, ../src/UART.sv, ../src/reset_synch.sv}
+
+read_file -format verilog {../src/cmdROM.v, ../src/dualPort1024x16.v, ../src/dualPort1536x16.v, ../src/ROM_B1.v, ../src/ROM_B2.v, ../src/ROM_B3.v, ../src/ROM_HP.v, ../src/ROM_LP.v}
+
+set current_design Equalizer
+
+###########################
+# Define clock and set don't mess with it #
+##########################
+create_clock -name "clk" -period 3 -waveform {0 1} {clk}
+set_dont_touch_network [find port clk]
+set_dont_touch_network [get_net iRST/rst_n]
+set_dont_touch [find design dualPort*]
+set_dont_touch [find design ROM_*]
+set_dont_touch [find design cmdROM]
+# setup pointer that contains all inputs except clock #
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+#########################
+# Set input delay & drive on all inputs #
+########################
+set_input_delay 0.75 [copy_collection $prim_inputs]
+#input delay 0.75ns
+set_driving_cell -lib_cell NAND2X1_LVT -library saed32lvt_tt0p85v25c [remove_from_collection $prim_inputs [find port rst_n] ]
+# tell it rst_n strongly driven so it won't buffer
+set_drive 0.0001 rst_n
+##########################
+# Set output delay & load on all outputs #
+##########################
+set_output_delay 0.75 [all_outputs]
+#output delay 0.75ns
+set_load 50 [all_outputs]
+#output load 50fF
+#####################################
+# Wire load model allows it to estimate internal parasitics #
+####################################
+set_wire_load_model -name 16000 -library saed32lvt_tt0p85v25c
+##################################
+# Max transition time is important for Hot-E reasons #
+#################################
+set_max_transition 0.125 [current_design]
+########################
+#clock_uncertainty#
+set_clock_uncertainty 0.125
+# Now actually synthesize for 1st time #
+#########################
+## smash the hierarchy (design ware component)
+ungroup -all -flatten
+compile -map_effort high -ungroup_all
+compile -map_effort high -ungroup_all -incremental_mapping
+check_design > out_check_design.txt
+########################
+# Take a look at max & min timings # and areas
+#######################
+report_timing -delay min > out_timing_min.txt
+report_timing -delay max > out_timing_max.txt
+report_area > out_area.txt
+#### write out final netlist ######
+write -format verilog Equalizer -output Equalizer.vg

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Equalizer
+Version: T-2022.03-SP3
+Date   : Mon May  1 10:32:52 2023
+****************************************
+
+Library(s) Used:
+
+    saed32lvt_tt0p85v25c (File: /cae/apps/data/saed32_edk-2022/lib/stdcell_lvt/db_nldm/saed32lvt_tt0p85v25c.db)
+
+Number of ports:                           28
+Number of nets:                         24076
+Number of cells:                        18249
+Number of combinational cells:          17114
+Number of sequential cells:              1132
+Number of macros/black boxes:               0
+Number of buf/inv:                       1203
+Number of references:                      72
+
+Combinational area:              53433.013193
+Buf/Inv area:                     1797.814679
+Noncombinational area:            8083.812470
+Macro/Black Box area:                0.000000
+Net Interconnect area:           11590.735679
+
+Total cell area:                 61516.825663
+Total area:                      73107.561342
+1
